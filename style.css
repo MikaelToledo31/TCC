@@ -72,3 +72,31 @@ input[type="text"]{
     background-color: #45a049;
 }
 
+section{
+    min-height: 50vh;
+}
+
+
+#clientTable caption {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #000000; 
+    margin-bottom: 10px;
+}
+
+#clientTable {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+#clientTable th, #clientTable td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+#clientTable th {
+    background-color: #f2f2f2; 
+    color: #000000; 
+}
